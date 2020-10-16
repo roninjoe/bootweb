@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+/** 
+ * This is the controller for our simple microservice.  It has only one 
+ * method, exposed as a ReST mapping, and delegates the funcionality off
+ * to a service.
+ */
 @RestController
 @Api("/api")
 public class HelloController {
